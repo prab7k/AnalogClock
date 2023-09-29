@@ -16,15 +16,21 @@ body{
 #hour{
     width: 2%;
     height: 28%;
+    top: 22%;
+    left: 49%;
     background-color: rgb(56, 56, 56);
 }
 #minute{
     width: 2%;
     height: 35%;
+    top: 15%;
+    left: 49%;
     background-color: grey;
 }
 #second{
     width: 1%;
     height: 40%;
+    top: 11%;
+    left: 49%;
     background-color: brown;
 }
