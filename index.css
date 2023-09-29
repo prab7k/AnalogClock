@@ -1,0 +1,30 @@
+body{
+    background: url(coffee.jpg);
+}
+#clockcontainer{
+    width: 37vw;
+    height:37vw;
+    position: relative;
+    background:url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 28%;
+    background-color: rgb(56, 56, 56);
+}
+#minute{
+    width: 2%;
+    height: 35%;
+    background-color: grey;
+}
+#second{
+    width: 1%;
+    height: 40%;
+    background-color: brown;
+}
